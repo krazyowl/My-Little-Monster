@@ -12,6 +12,11 @@
 		E4EDC62C1BD0D05C00A976C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC62A1BD0D05C00A976C1 /* Main.storyboard */; };
 		E4EDC62E1BD0D05C00A976C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC62D1BD0D05C00A976C1 /* Assets.xcassets */; };
 		E4EDC6311BD0D05C00A976C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC62F1BD0D05C00A976C1 /* LaunchScreen.storyboard */; };
+		E4EDC63D1BD0D09A00A976C1 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC6381BD0D09A00A976C1 /* bite.wav */; settings = {ASSET_TAGS = (); }; };
+		E4EDC63E1BD0D09A00A976C1 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC6391BD0D09A00A976C1 /* cave-music.mp3 */; settings = {ASSET_TAGS = (); }; };
+		E4EDC63F1BD0D09A00A976C1 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC63A1BD0D09A00A976C1 /* death.wav */; settings = {ASSET_TAGS = (); }; };
+		E4EDC6401BD0D09A00A976C1 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC63B1BD0D09A00A976C1 /* heart.wav */; settings = {ASSET_TAGS = (); }; };
+		E4EDC6411BD0D09A00A976C1 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC63C1BD0D09A00A976C1 /* skull.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E4EDC62D1BD0D05C00A976C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4EDC6301BD0D05C00A976C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4EDC6321BD0D05C00A976C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EDC6381BD0D09A00A976C1 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		E4EDC6391BD0D09A00A976C1 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		E4EDC63A1BD0D09A00A976C1 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		E4EDC63B1BD0D09A00A976C1 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		E4EDC63C1BD0D09A00A976C1 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		E4EDC6251BD0D05C00A976C1 /* MyLittleMonster */ = {
 			isa = PBXGroup;
 			children = (
+				E4EDC6421BD0D0A800A976C1 /* sounds */,
 				E4EDC6261BD0D05C00A976C1 /* AppDelegate.swift */,
 				E4EDC6281BD0D05C00A976C1 /* ViewController.swift */,
 				E4EDC62A1BD0D05C00A976C1 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				E4EDC6321BD0D05C00A976C1 /* Info.plist */,
 			);
 			path = MyLittleMonster;
+			sourceTree = "<group>";
+		};
+		E4EDC6421BD0D0A800A976C1 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E4EDC6381BD0D09A00A976C1 /* bite.wav */,
+				E4EDC6391BD0D09A00A976C1 /* cave-music.mp3 */,
+				E4EDC63A1BD0D09A00A976C1 /* death.wav */,
+				E4EDC63B1BD0D09A00A976C1 /* heart.wav */,
+				E4EDC63C1BD0D09A00A976C1 /* skull.wav */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +144,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EDC6411BD0D09A00A976C1 /* skull.wav in Resources */,
+				E4EDC63D1BD0D09A00A976C1 /* bite.wav in Resources */,
+				E4EDC63F1BD0D09A00A976C1 /* death.wav in Resources */,
+				E4EDC6401BD0D09A00A976C1 /* heart.wav in Resources */,
+				E4EDC63E1BD0D09A00A976C1 /* cave-music.mp3 in Resources */,
 				E4EDC6311BD0D05C00A976C1 /* LaunchScreen.storyboard in Resources */,
 				E4EDC62E1BD0D05C00A976C1 /* Assets.xcassets in Resources */,
 				E4EDC62C1BD0D05C00A976C1 /* Main.storyboard in Resources */,
@@ -285,6 +313,7 @@
 				E4EDC6371BD0D05C00A976C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
