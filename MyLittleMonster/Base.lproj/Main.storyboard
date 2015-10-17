@@ -66,7 +66,7 @@
                                 </subviews>
                                 <animations/>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle 1" translatesAutoresizingMaskIntoConstraints="NO" id="w2i-hn-8IX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle 1" translatesAutoresizingMaskIntoConstraints="NO" id="w2i-hn-8IX" customClass="MonsterImg" customModule="MyLittleMonster" customModuleProvider="target">
                                 <rect key="frame" x="20" y="169" width="500" height="426"/>
                                 <animations/>
                                 <constraints>
@@ -178,9 +178,6 @@
                             <mask key="constraints">
                                 <exclude reference="9q3-mL-8x5"/>
                                 <exclude reference="enk-Nj-g06"/>
-                                <exclude reference="lNB-R3-V5C"/>
-                                <exclude reference="5wy-Kz-1dS"/>
-                                <exclude reference="BzU-Lz-H4F"/>
                                 <exclude reference="3VY-jP-V3G"/>
                                 <exclude reference="3bD-KH-9yl"/>
                                 <exclude reference="BUd-ff-waE"/>
@@ -194,6 +191,9 @@
                                 <exclude reference="r3G-pu-YBp"/>
                                 <exclude reference="t2j-gR-XSi"/>
                                 <exclude reference="zbb-CY-8Lq"/>
+                                <exclude reference="lNB-R3-V5C"/>
+                                <exclude reference="5wy-Kz-1dS"/>
+                                <exclude reference="BzU-Lz-H4F"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -208,9 +208,6 @@
                             <mask key="constraints">
                                 <include reference="9q3-mL-8x5"/>
                                 <exclude reference="Xsd-DO-3rp"/>
-                                <include reference="lNB-R3-V5C"/>
-                                <include reference="5wy-Kz-1dS"/>
-                                <exclude reference="dHk-jd-Wst"/>
                                 <exclude reference="3VY-jP-V3G"/>
                                 <exclude reference="3bD-KH-9yl"/>
                                 <include reference="BUd-ff-waE"/>
@@ -221,6 +218,9 @@
                                 <exclude reference="t2j-gR-XSi"/>
                                 <exclude reference="xwW-E5-euH"/>
                                 <include reference="zbb-CY-8Lq"/>
+                                <include reference="lNB-R3-V5C"/>
+                                <include reference="5wy-Kz-1dS"/>
+                                <exclude reference="dHk-jd-Wst"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -234,6 +234,9 @@
                         <outlet property="foodImg" destination="vp2-8h-u8s" id="ao2-4J-hhY"/>
                         <outlet property="heartImg" destination="05W-hk-9Ge" id="UBc-XP-za6"/>
                         <outlet property="monsterImg" destination="w2i-hn-8IX" id="hel-zB-OXf"/>
+                        <outlet property="skull1Img" destination="TeQ-Uw-pBm" id="PaL-a2-w4O"/>
+                        <outlet property="skull2Img" destination="emN-VD-dm1" id="KcV-ma-1wA"/>
+                        <outlet property="skull3Img" destination="cVO-4E-6eB" id="qMf-4W-WBp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

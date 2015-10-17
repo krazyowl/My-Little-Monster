@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E44FEE1E1BD1D39D00AE1107 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44FEE1D1BD1D39D00AE1107 /* DragImg.swift */; settings = {ASSET_TAGS = (); }; };
+		E45B99001BD243E000C3E98E /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45B98FF1BD243E000C3E98E /* MonsterImg.swift */; settings = {ASSET_TAGS = (); }; };
 		E4EDC6271BD0D05C00A976C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDC6261BD0D05C00A976C1 /* AppDelegate.swift */; };
 		E4EDC6291BD0D05C00A976C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EDC6281BD0D05C00A976C1 /* ViewController.swift */; };
 		E4EDC62C1BD0D05C00A976C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EDC62A1BD0D05C00A976C1 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		E44FEE1D1BD1D39D00AE1107 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		E45B98FF1BD243E000C3E98E /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 		E4EDC6231BD0D05C00A976C1 /* MyLittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittleMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EDC6261BD0D05C00A976C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4EDC6281BD0D05C00A976C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				E44FEE1D1BD1D39D00AE1107 /* DragImg.swift */,
+				E45B98FF1BD243E000C3E98E /* MonsterImg.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45B99001BD243E000C3E98E /* MonsterImg.swift in Sources */,
 				E44FEE1E1BD1D39D00AE1107 /* DragImg.swift in Sources */,
 				E4EDC6291BD0D05C00A976C1 /* ViewController.swift in Sources */,
 				E4EDC6271BD0D05C00A976C1 /* AppDelegate.swift in Sources */,
